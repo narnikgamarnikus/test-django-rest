@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./test-django-rest/config/*,
+       ./test-django-rest/manage.py,
+       ./test-django-rest/wsgi.py,
+       *__init__*

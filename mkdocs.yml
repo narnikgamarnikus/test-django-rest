@@ -1,0 +1,11 @@
+site_name: test-django-rest
+site_description: test django restframework cookiecutter
+repo_url: https://github.com/narnikgamarnikus/test-django-rest
+site_dir: site
+copyright: Copyright &copy; 2015, <a href="https://github.com/narnikgamarnikus">narnikgamarnikus</a>.
+
+pages:
+  - Home: 'index.md'
+  - API:
+    - Authentication: 'api/authentication.md'
+    - Users: 'api/users.md'
